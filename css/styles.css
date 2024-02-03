@@ -13,6 +13,9 @@ h1,h2,h3,h4,h5,h6,p {
     padding-left: 0;
   list-style-type: none;
   }
+  img {
+    display: block;
+  }
   body {
     font-family: "Roboto", sans-serif;
     background: #FFF;
@@ -31,6 +34,16 @@ h1,h2,h3,h4,h5,h6,p {
   }
 
   /*=================================== Header================== */
+  .page-header {
+    border-bottom: 1px solid #e7e9fc ;
+  }
+  .header-container {
+    display: flex; 
+  }
+  .header-container-list {
+    display: flex;
+    align-items: center; 
+  }
 
   .logo-web {
     color: #4D5AE5;
@@ -40,7 +53,9 @@ h1,h2,h3,h4,h5,h6,p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
   }
+
   .logo-studio {
 color: #2E2F42;
   }
@@ -180,6 +195,7 @@ letter-spacing: 0.02em;
 /* ========================footer=========================== */
 .footer {
   background:#2E2F42;
+  padding: 100px 0;
 }
 .logo-web-footer {
   color: #4D5AE5;
@@ -189,6 +205,8 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+display: inline-block; 
+
 }
 
 .logo-studio-footer {
@@ -199,6 +217,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 16px;
 }
 .footer-text {
   color:  #F4F4FD;
