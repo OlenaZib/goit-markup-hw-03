@@ -1,0 +1,205 @@
+/*--------------скидання дифолтних стилів+основні правила----------------*/
+
+
+  
+  
+  ul,
+  ol {
+  list-style-type: none;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background: #FFF;
+    color: #434455;
+    
+  }
+  a {
+    text-decoration: none;
+  }
+
+  /*=================================== Header================== */
+
+  .logo-web {
+    color: #4D5AE5;
+    font-family: Raleway,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .logo-studio {
+color: #2E2F42;
+  }
+  .header-list {
+    font-size: 16px;
+font-weight: 500;
+line-height: 1.15; 
+letter-spacing: 0.02em;
+  }
+.header-list-item-link {
+    color: #2e2f42;
+    line-height: 1.5;
+}
+
+.header-list-item-link:hover,
+.header-list-item-link:focus {
+    color: #404bbf;
+}
+
+    
+  /* ===================================address========================= */
+  .header-contacts {
+    font-style: normal;
+  }
+
+  .header-contacts-list {
+    color: #434455;
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+
+  }
+.header-contacts-link {
+    color:#434455;
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+    color: #404bbf;
+}
+
+  /* =====================================Section one============================== */
+  .section-one-title {
+    color:#FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07; 
+    letter-spacing:0.02em;
+  }
+.section-one {
+    background-color: #2E2F42;
+    
+}
+.section-one-order-button {
+ color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color:#4D5AE5;
+font-family: "Roboto", sans-serif;
+}
+.section-one-order-button:hover,
+.section-one-order-button:focus {
+background-color: #404BBF
+
+}
+/* =========================Secnion two========================================= */
+.section-two-title {
+  color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.section-two-text {
+color: #434455;
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+
+}
+/* ============================Section three=================================== */
+.section-three {
+    background:  #F4F4FD;
+}
+.section-three-title-our-team{
+    color:  #2e2f42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.section-three-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: 0.02em;
+color:#2e2f42;
+}
+.section-three-link {
+    background-color: #FFFFFF ;
+}
+.section-three-text {
+    color: #434455;
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+
+}
+/* ==============================section four======================== */
+
+.section-four {
+  color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.section-four-title {
+  color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: 0.02em;
+}
+.section-four-text {
+  color: #434455;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* ========================footer=========================== */
+.footer {
+  background:#2E2F42;
+}
+.logo-web-footer {
+  color: #4D5AE5;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.logo-studio-footer {
+  color:  #F4F4FD;
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.footer-text {
+  color:  #F4F4FD;
+font-size: 16px;
+line-height: 1.5; 
+letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+
+
+
+
