@@ -245,7 +245,25 @@ text-align: center;
 
 }
 /* ==============================section four======================== */
+.section-four-list-item {
+  width: calc((100% - 48px) / 3);
+}
+.section {
+  padding: 120px 0;
+}
+.section-four-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 
+}
+.container-title {
+  padding: 32px 16px;
+  border: 1px solid #e7e9f;
+  border-top: none;
+  margin-bottom: 8px;
+}
 .section-four {
   color: #2E2F42;
 text-align: center;
@@ -254,6 +272,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 .section-four-title {
   color: #2E2F42;
@@ -261,6 +280,8 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
+text-align: ;
+margin-bottom: 8px;
 }
 .section-four-text {
   color: #434455;
@@ -282,6 +303,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block; 
+margin-bottom: 16px;
 
 }
 
@@ -300,6 +322,7 @@ text-transform: uppercase;
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+display: 
 }
 
 
