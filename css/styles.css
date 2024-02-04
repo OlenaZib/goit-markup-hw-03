@@ -120,6 +120,9 @@ margin-left: 322px;
     line-height: 1.07; 
     letter-spacing:0.02em;
     max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
   
   }
 .section-one {
@@ -141,6 +144,8 @@ height: 56px;
 border: none; 
 border-radius: 4px; 
 cursor: pointer;
+margin-left: auto;
+margin-right: auto;
 }
 .section-one-order-button:hover,
 .section-one-order-button:focus {
@@ -148,6 +153,24 @@ background-color: #404BBF
 
 }
 /* =========================Secnion two========================================= */
+.section-two-list {
+  display: flex;
+  gap: 24px;
+  
+}
+.section-two-title-visually-hidden {
+position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .section-two {
   padding: 120px 0;
 }
@@ -158,6 +181,9 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
+
+
 
 }
 .section-two-text {
@@ -169,6 +195,11 @@ letter-spacing: 0.02em;
 
 }
 /* ============================Section three=================================== */
+
+.section-three-list {
+  display: flex;
+  gap: 24px;
+}
 .section-three {
     background:  #F4F4FD;
 }
@@ -180,6 +211,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+
 }
 .section-three-title {
 font-size: 20px;
