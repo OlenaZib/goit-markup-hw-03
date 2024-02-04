@@ -70,7 +70,10 @@ gap: 40px;
 .header-list-item-link {
     color: #2e2f42;
     line-height: 1.5;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+    
 }
 
 .header-list-item-link:hover,
@@ -98,7 +101,10 @@ margin-left: 322px;
   }
 .header-contacts-link {
     color:#434455;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+    
     
 }
 .header-contacts-link:hover,
