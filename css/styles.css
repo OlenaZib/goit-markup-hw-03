@@ -148,18 +148,24 @@ background-color: #404BBF
 
 }
 /* =========================Secnion two========================================= */
+.section-two {
+  padding: 120px 0;
+}
+
 .section-two-title {
   color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+
 }
 .section-two-text {
 color: #434455;
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+
 
 }
 /* ============================Section three=================================== */
