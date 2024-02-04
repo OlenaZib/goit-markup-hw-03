@@ -65,10 +65,12 @@ line-height: 1.15;
 letter-spacing: 0.02em;
 display: flex;
 gap: 40px;
+
   }
 .header-list-item-link {
     color: #2e2f42;
     line-height: 1.5;
+    padding: 24px 0;
 }
 
 .header-list-item-link:hover,
@@ -80,6 +82,7 @@ gap: 40px;
   /* ===================================address========================= */
   .header-contacts {
     font-style: normal;
+    
   }
 
   .header-contacts-list {
@@ -89,13 +92,14 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 display: flex;
 gap: 40px;
-padding: 24px 0;
-margin-left: 76px;
-margin-right: 322px;
+margin-left: 322px;
+
 
   }
 .header-contacts-link {
     color:#434455;
+    padding: 24px 0;
+    
 }
 .header-contacts-link:hover,
 .header-contacts-link:focus {
